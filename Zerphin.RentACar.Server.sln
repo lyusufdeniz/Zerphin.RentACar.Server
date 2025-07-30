@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ACFB8491-41C3-4D89-A48A-8B6B2247AD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zerphin.RentACar.Server.Application", "src\Core\Zerphin.RentACar.Server.Application\Zerphin.RentACar.Server.Application.csproj", "{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zerphin.RentACar.Server.Domain", "src\Core\Zerphin.RentACar.Server.Domain\Zerphin.RentACar.Server.Domain.csproj", "{AB867CEF-7A58-14A3-B1FD-51E124C2C393}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F454B4C2-934E-459F-A228-F80A94F9CA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zerphin.RentACar.Server.Persistence", "src\Infrastructure\Zerphin.RentACar.Server.Persistence\Zerphin.RentACar.Server.Persistence.csproj", "{616ACD42-9FA3-4148-B367-8F8887C8986E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zerphin.RentACar.Server.API", "src\API\Zerphin.RentACar.Server.API\Zerphin.RentACar.Server.API.csproj", "{769EB9AC-F272-459B-ADCD-E152443E0ECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6598AFFC-F593-45D4-912C-85C90C6A04F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB867CEF-7A58-14A3-B1FD-51E124C2C393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB867CEF-7A58-14A3-B1FD-51E124C2C393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB867CEF-7A58-14A3-B1FD-51E124C2C393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB867CEF-7A58-14A3-B1FD-51E124C2C393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616ACD42-9FA3-4148-B367-8F8887C8986E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616ACD42-9FA3-4148-B367-8F8887C8986E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616ACD42-9FA3-4148-B367-8F8887C8986E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616ACD42-9FA3-4148-B367-8F8887C8986E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769EB9AC-F272-459B-ADCD-E152443E0ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769EB9AC-F272-459B-ADCD-E152443E0ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769EB9AC-F272-459B-ADCD-E152443E0ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769EB9AC-F272-459B-ADCD-E152443E0ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACFB8491-41C3-4D89-A48A-8B6B2247AD37} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BEC8387B-5CCB-DBDF-3FF8-80A95CDF2F21} = {ACFB8491-41C3-4D89-A48A-8B6B2247AD37}
+		{AB867CEF-7A58-14A3-B1FD-51E124C2C393} = {ACFB8491-41C3-4D89-A48A-8B6B2247AD37}
+		{F454B4C2-934E-459F-A228-F80A94F9CA33} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{616ACD42-9FA3-4148-B367-8F8887C8986E} = {F454B4C2-934E-459F-A228-F80A94F9CA33}
+		{769EB9AC-F272-459B-ADCD-E152443E0ECA} = {6598AFFC-F593-45D4-912C-85C90C6A04F0}
+		{6598AFFC-F593-45D4-912C-85C90C6A04F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35A1897-D493-4DB3-B08B-79F040B1056B}
+	EndGlobalSection
+EndGlobal

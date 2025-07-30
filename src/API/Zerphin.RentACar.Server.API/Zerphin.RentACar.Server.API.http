@@ -1,0 +1,6 @@
+@Zerphin.RentACar.Server.API_HostAddress = http://localhost:5016
+
+GET {{Zerphin.RentACar.Server.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
